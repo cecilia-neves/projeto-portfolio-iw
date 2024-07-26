@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(223, 223, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgba(130, 121, 255, 0.322);
+    padding: 5px 0px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 50px;
+}
+nav ul li a{
+    color: rgb(39, 21, 121);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+}
+a:hover{
+    color: rgba(53, 29, 161, 0.836);
+}
+#formulario{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#formulario textarea{
+    height: 100px;
+}
+#formulario input[type="submit"]{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(74, 76, 180, 0.623);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#formulario input[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgba(74, 85, 180, 0.589);
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: rgb(39, 21, 121);
+}
+section{
+    background-color:rgba(156, 155, 241, 0.329);
+    padding: 22px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 540px;
+    box-shadow: 0 0 10px rgba(23, 8, 37, 0.1);
+}
+.portfolio
+ul li.portfolio{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+footer{
+    color: rgb(26, 3, 70);
+}
+section ul{
+    list-style-type: none;
+}
+img{
+    width: 200px;
+    height:300px;
+}
